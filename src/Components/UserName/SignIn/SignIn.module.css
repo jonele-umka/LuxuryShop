@@ -1,0 +1,73 @@
+.headForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.headForm h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.signIn {
+  background: #fff;
+  border-radius: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 14px 28px -10px rgb(0 0 0 / 10%),
+    0 10px 10px -10px rgb(0 0 0 / 2%);
+
+  padding: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.checked {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+.box label {
+  font-size: 14px;
+  color: #000;
+  font-weight: 100;
+}
+.box input {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 13px 13px;
+  margin: 8px 0 0 0;
+  width: 400px;
+  font-size: 16px;
+}
+.box input::placeholder {
+  font-size: 14px;
+}
+
+.signIn button {
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  padding: 15px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.signInBottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+.signInBottom a {
+  color: #1976d2;
+}

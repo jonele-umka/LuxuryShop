@@ -1,0 +1,114 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.homeSlider {
+  height: 100vh;
+  position: relative;
+  background: #f3f3f3;
+  /* background: linear-gradient(
+    217.97deg,
+    #111111 21.91%,
+    #000000 51.15%,
+    #111111 77.8%
+  ); */
+}
+.homeSlider_1 {
+  width: 100%;
+  background: url("../../../assets/image/mainBackground/mainSlide.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.homeSlider_2 {
+  width: 100%;
+  background: url("../../../assets/image/mainBackground/louisV.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.homeSlider_3 {
+  width: 100%;
+  background: url("../../../assets/image/mainBackground/prada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.homeSlider_4 {
+  width: 100%;
+  background: url("../../../assets/image/mainBackground/gucci.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.brandBtn {
+  margin-top: 20px;
+  text-align: center;
+}
+.brandBtn button {
+  border: 1px solid #fff;
+  padding: 15px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s;
+  animation: animate_pulse 1.5s infinite;
+}
+.brandBtn button:hover {
+  background: #fff;
+  color: #000;
+  /* transition: all 0.3s ease-in-out; */
+}
+.brandBlock {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); */
+}
+.brandText h1 {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.brandText p {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+@keyframes animate_pulse {
+  0% {
+    box-shadow: 0 0 0 0#fff;
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(228, 25, 49, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+  }
+}

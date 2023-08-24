@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Futura", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding-right: 0 !important;
+  overflow: auto !important;
+  /* background-color: #f3f3f3; */
+  /* background: linear-gradient(
+    217.97deg,
+    #111111 21.91%,
+    #000000 51.15%,
+    #111111 77.8%
+  ); */
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Futura", sans-serif;
+}
+@font-face {
+  font-family: "FuturaLight";
+  src: url("./assets/fonts/Futura\ light.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/Futura\ Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "FuturaBold";
+  src: url("./assets/fonts/granjon\ bold.otf");
+  font-weight: 600;
+}
+
+/* @font-face {
+  font-family: "Zapf";
+  src: url("./assets/fonts/zapf-humanist-601-bold-bt.ttf");
+  font-weight: 600;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+input {
+  border: 0;
+  padding: 0;
+}
+input[type="radio" i] {
+  margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+input:focus {
+  outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.loading {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.headText {
+  background: #f3f3f3;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.headText h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #3c3c3c;
+  text-transform: uppercase;
+}
+.headerText {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.headerText h1 {
+  font-size: 30px;
+  color: #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+}

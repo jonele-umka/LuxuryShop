@@ -1,0 +1,121 @@
+/* .clothesItem {
+  cursor: default;
+  background-color: #fff;
+}
+.clothesItem img {
+  width: 100%;
+  cursor: pointer;
+}
+.clothesBox {
+  padding: 10px 10px 0px 10px;
+} */
+/* .clothesNames {
+  display: flex;
+  justify-content: space-between;
+} */
+/* .clothesText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+/* .clothesText h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: text;
+  color: #222;
+  font-weight: 600;
+}
+.clothesText p {
+  font-size: 18px;
+  cursor: text;
+  color: #696969;
+  font-weight: 400;
+}
+.clothesText span {
+  font-size: 18px;
+  cursor: text;
+  color: #383838;
+  font-weight: 400;
+} */
+
+/* .clothesFavoriteBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.quantitySelector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f3f3f3;
+}
+.quantitySelector span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.quantitySelector div {
+  background: transparent;
+  color: #222;
+  width: 35px;
+  font-size: 25px;
+  height: 35px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+.quantitySelector div:hover {
+  background: #f3f3f3;
+}
+.addCart {
+  margin-top: 10px;
+  text-align: center;
+}
+.addCart button {
+  background: #222;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+} */
+.new {
+  background-color: #f3f3f3;
+  padding: 50px 0;
+}
+ 
+.bottomText {
+  text-align: center;
+  margin-top: 50px;
+}
+.bottomText a {
+  position: relative;
+  font-size: 16px;
+  color: #767676;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.bottomText a::after {
+  background: #767676;
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 0.5px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.bottomText a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.newBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  row-gap: 80px;
+}

@@ -1,0 +1,79 @@
+.main {
+  padding: 50px 0;
+  background: #0b0b0b;
+}
+.mainBlock {
+  display:flex;
+  justify-content: space-around;
+
+ 
+  align-items: center;
+}
+.main img {
+  width: 400px;
+}
+.partners {
+  overflow-x: hidden;
+  padding: 50px 0;
+}
+.partnerBlock {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  column-gap: 200px;
+  animation-name: rightToLeft;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.partnerBox img {
+  width: 150px;
+}
+.products {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.productsBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  row-gap: 80px;
+}
+.bottomText {
+  text-align: center;
+  margin-top: 50px;
+}
+.bottomText a {
+  position: relative;
+  font-size: 16px;
+  color: #767676;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.bottomText a::after {
+  background: #767676;
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 0.5px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.bottomText a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}

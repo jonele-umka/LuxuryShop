@@ -1,0 +1,71 @@
+.wrapper {
+  padding: 0 100px;
+}
+/* .headText {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.headText h1 {
+  font-size: 30px;
+  color: #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+} */
+.delivery {
+  background: #f3f3f3;
+}
+.content {
+  box-shadow: 0 7px 25px -10px rgba(0, 0, 0, 0.33);
+  background: #fff;
+  padding: 50px 0;
+  margin: 50px 0;
+}
+.deliveryContent h1 {
+  font-size: 25px;
+  color: #222;
+  margin-bottom: 10px;
+}
+.deliveryContent h2 {
+  color: #222;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.deliveryContent p {
+  color: #767676;
+  line-height: 25px;
+}
+.deliveryContent h6 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.deliveryBox {
+  margin-bottom: 80px;
+}
+.deliveryBox:last-child {
+  margin-bottom: 0;
+}
+.deliveryLink {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+.deliveryLink a {
+  color: #222;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid #222;
+}
+.deliveryPay div {
+  margin-bottom: 40px;
+}
+.deliveryPay div:last-child {
+  margin-bottom: 0px;
+}
+.deliveryPay h2 {
+  margin-bottom: 15px;
+}
+.deliveryPay p {
+  margin-top: 15px;
+}

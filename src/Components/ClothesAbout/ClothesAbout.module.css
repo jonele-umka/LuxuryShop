@@ -1,0 +1,358 @@
+.clothes {
+  background: #f3f3f3;
+}
+.wrapper {
+  padding-top: 50px;
+}
+.content {
+  background: #fff;
+  margin-bottom: 50px;
+  padding: 40px;
+}
+
+.productUrl h1 {
+  font-size: 18px;
+  color: #222;
+  font-weight: 400;
+}
+.block {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.imgBlock {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.imgBlock img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.box {
+  position: sticky;
+  top: 30px;
+}
+.productNameBlock {
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  margin-bottom: 25px;
+}
+.productNameBlock h1 {
+  font-size: 40px;
+  color: #222;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.productNameBlock p {
+  font-size: 35px;
+  color: #767676;
+}
+.details {
+  border-top: 1px solid #f3f3f3;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.details p {
+  font-size: 16px;
+  color: #222;
+}
+.details span {
+  font-size: 16px;
+  color: #767676;
+}
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/bourbon/5.1.0/css/bourbon.min.css"); */
+
+/* options */
+:root {
+  --option-color: #cbd1d8;
+  --checked-option-color: #40e0d0;
+  --option-size: 30px;
+  --explosion-distance: 5; /* multiplied by 30px */
+  --explosion-duration: 0.65s;
+}
+
+/* on-click animation */
+/* @keyframes click-wave {
+  --offset  calc(
+    (30px * var(--explosion-distance)) - 30px / 2
+  );
+
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 0.35;
+    position: relative;
+  }
+
+  100% {
+    width: calc(30px * var(--explosion-distance));
+    height: calc(30px * var(--explosion-distance));
+    margin-left: calc(-1 * var(--offset));
+    margin-top: calc(-1 * var(--offset));
+    opacity: 0;
+  }
+} */
+/* .optionInput:hover {
+  background: darken(var(--option-color), 15%);
+} */
+
+/* .optionInput:checked {
+  background: var(--checked-option-color);
+} */
+
+/* .optionInput:checked::after {
+  content: "";
+  display: block;
+  position: relative;
+  z-index: 100;
+  background: var(--checked-option-color);
+} */
+
+/* .optionInput.radio {
+  border-radius: 50%;
+} */
+
+/* .optionSize:checked::before {
+  content: "\2714";
+ 
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+} */
+
+.colorBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.colorBlock button {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  border: 0.5px solid #767676;
+}
+.colorBlock button.active::before {
+  content: "\2714";
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* 
+.optionColor {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  border: 0.5px solid #767676;
+ 
+}
+
+.optionColor:checked::before {
+  content: "\2714";
+  font-size: 14px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+   
+} */
+
+.sizeBlock div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
+.optionSize {
+  appearance: none;
+  background: #f3f3f3;
+  border: 0.5px solid #767676;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.optionSize:checked {
+  background: #000;
+}
+.optionSize:checked::before {
+  content: "\2714";
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+}
+.sizeBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+/* .sizeBlock button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: #f3f3f3;
+  border: 0.5px solid #767676;
+}
+.sizeBlock button.active {
+  background: #000;
+  color: #fff;
+} */
+.add {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.addBtn {
+  width: 100%;
+}
+.addBtn button {
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* .imagesBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .imagesBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .image {
+    width: 300px;
+    height: 400px;
+  }
+  .image img {
+    width: 100%;
+  }
+  .thumbsImg {
+    width: 200px;
+    height: 200px;
+  } */
+
+.infoDescription {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 20px;
+}
+.infoProduct {
+  margin-bottom: 20px;
+}
+.infoProduct h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #222;
+}
+.infoProductDetails p {
+  font-size: 16px;
+  margin-bottom: 10px;
+
+  color: #222;
+}
+.infoProductDetails p:last-child {
+  margin-bottom: 0;
+}
+.infoProductDetails p span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+}
+.delivery {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.deliveryBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.deliveryText h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+}
+.deliveryText p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #222;
+}
+.buyText {
+  display: flex;
+  align-items: baseline;
+  column-gap: 10px;
+}
+.buyText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+  margin-bottom: 10px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.social h1 {
+  text-align: left;
+  font-size: 16px;
+  color: #222;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.socialBlock {
+  display: flex;
+  column-gap: 20px;
+}
+
+/* @media screen and (max-width: 1500px) {
+    .block {
+      grid-template-columns: 60% 1fr;
+    }
+    .imgBlock img {
+      height: 400px;
+    }
+  } */

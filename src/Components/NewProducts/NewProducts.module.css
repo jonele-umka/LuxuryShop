@@ -1,0 +1,71 @@
+.new {
+  padding: 50px 0;
+}
+.galleryWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+.newItem {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: flex 0.8s ease;
+  position: relative;
+}
+.newItem::before {
+  /* Стили для блока с названием */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  filter: brightness(50%);
+}
+.newItem:hover {
+  flex: 3;
+}
+.newItem:hover::before {
+  opacity: 1;
+}
+.newItem:hover .infoClothes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoClothes {
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f3f3f3;
+  padding: 20px 10px;
+}
+.infoClothes div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 8px;
+  
+}
+.infoClothes h1 {
+  font-size: 24px;
+  color: #222;
+  font-weight: 400;
+}
+.infoClothes a {
+  font-size: 18px;
+  color: #222;
+  border-bottom: 0.5px solid #222;
+}

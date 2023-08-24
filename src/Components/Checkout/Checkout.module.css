@@ -1,0 +1,155 @@
+.checkoutContent {
+  background: #f3f3f3;
+  padding: 50px 0;
+}
+
+.checkoutBlock {
+  display: flex;
+  column-gap: 50px;
+  justify-content: space-between;
+}
+.checkoutBlock input {
+  border: 0.5px solid rgba(118, 118, 118, 0.5);
+  padding: 15px 13px;
+  margin: 8px 0 0 0;
+  font-size: 18px;
+}
+.checkoutContent label {
+  font-size: 16px;
+  color: #222;
+  font-weight: 100;
+}
+.checkoutContent input::placeholder {
+  font-size: 16px;
+  font-weight: 100;
+  color: #767676;
+}
+.headFormText {
+  margin-bottom: 40px;
+}
+.headFormText h1 {
+  font-size: 25px;
+  color: #222;
+  text-transform: uppercase;
+}
+.checkoutBox {
+  background: #fff;
+  box-shadow: 0 14px 28px -10px rgb(0 0 0 / 10%),
+    0 10px 10px -10px rgb(0 0 0 / 2%);
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.addressForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-bottom: 20px;
+}
+.addressForm div {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.homeAddress {
+  display: flex;
+  column-gap: 20px;
+}
+.homeAddress div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.checkoutBtn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background: #fff;
+  box-shadow: 0 14px 28px -10px rgb(0 0 0 / 10%),
+    0 10px 10px -10px rgb(0 0 0 / 2%);
+  width: 400px;
+  position: sticky;
+  top: 10%;
+  padding: 20px 40px;
+}
+
+.sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+.sum h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.sum span {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+}
+.checkoutBtn button {
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cardBox {
+  background: #fff;
+  box-shadow: 0 14px 28px -10px rgb(0 0 0 / 10%),
+    0 10px 10px -10px rgb(0 0 0 / 2%);
+  padding: 40px;
+}
+
+.cardFormBlock {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+.cardFormBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.numCard input::placeholder {
+  letter-spacing: 0.4em;
+  font-size: 18px;
+}
+
+.monthYear {
+  display: flex;
+  align-items: flex-end;
+  row-gap: 8px;
+  column-gap: 10px;
+}
+.monthYear p {
+  font-size: 25px;
+  color: #222;
+  font-weight: 100;
+}
+.monthYear input {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-bottom: 0.5px solid rgba(118, 118, 118, 0.5);
+  width: 25px;
+  height: 25px;
+}
+
+.cvv input {
+  width: 50px;
+  padding: 5px;
+  border: none;
+  border-bottom: 0.5px solid rgba(118, 118, 118, 0.5);
+}

@@ -1,0 +1,41 @@
+.headList {
+  border-bottom: 0.5px solid #222;
+ 
+  padding: 0 15px;
+}
+.headListBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.headListBlock div:first-child {
+  flex: 1;
+  padding: 15px 0;
+  border-right: 0.5px solid #222;
+}
+
+.headList h1 {
+  font-size: 20px;
+  color: #222;
+  font-weight: 400;
+}
+ 
+.catalogsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.catalogsList button {
+  text-align: left;
+  width: 100%;
+  color: #222;
+  font-size: 16px;
+  cursor: pointer;
+  background: #f3f3f3;
+  padding: 15px 20px;
+}
+.catalogsList li:hover {
+  background: rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+}

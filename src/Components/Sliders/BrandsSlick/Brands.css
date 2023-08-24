@@ -1,0 +1,32 @@
+.partners {
+  overflow-x: hidden;
+  padding: 50px 0;
+}
+/* .partnerBlock {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  column-gap: 200px;
+  animation-name: rightToLeft;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+} */
+.partnerBox {
+  width: 150px;
+  height: 100%;
+  margin: 0 auto;
+  background: red;
+}
+.partnerBox img {
+  width: 100%;
+}
+
+/* @keyframes rightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  } */

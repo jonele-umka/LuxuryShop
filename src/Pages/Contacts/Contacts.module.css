@@ -1,0 +1,100 @@
+.contacts {
+  background: #f3f3f3;
+}
+.contactsBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.contactsBox ul {
+  margin-top: 10px;
+}
+.contactsBox li {
+  margin-bottom: 15px;
+}
+.contactsBox li:last-child {
+  margin-bottom: 0px;
+}
+.contactsBox h1 {
+  color: #222;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* .contactsBox h2 {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 5px;
+} */
+.contactsBox a {
+  font-size: 14px;
+  color: #767676;
+  position: relative;
+}
+.contactsBox p {
+  font-size: 14px;
+  color: #767676;
+  position: relative;
+}
+.contactsBox a::after {
+  background: #767676;
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 0.5px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.contactsBox a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.socialBlock {
+  margin-top: 15px;
+}
+.socialBlock ul {
+  display: flex;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 0;
+}
+.socialBlock li {
+  margin-bottom: 0;
+}
+.socialBlock li a:hover::after {
+  content: none;
+}
+.socialBlock img {
+  width: 20px;
+}
+
+/* media */
+
+@media screen and (max-width: 1100px) {
+  /* contacts */
+  .contactsBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contactsBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 420px) {
+  .contactsBox h1 {
+    font-size: 25px;
+  }
+  .socialBlock {
+    justify-content: center;
+  }
+  .contactsBlock {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    text-align: center;
+  }
+}

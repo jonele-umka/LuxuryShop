@@ -1,0 +1,247 @@
+.searchResults {
+  padding: 50px 0;
+}
+/* .headText {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.headText h1 {
+  font-size: 30px;
+  color: #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+} */
+.headText span {
+  font-size: 30px;
+  color: #3c3c3c;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.newBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  row-gap: 80px;
+}
+.empty {
+  height: 100vh;
+}
+/* .productCard,
+.productCard * {
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.clothesColors {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.clothesColors div {
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+}
+.clothesColors button {
+  border: none;
+  border-radius: 50%;
+  border: 0.5px solid #222;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  vertical-align: top;
+}
+.clothesColors div.selected {
+  border: 2px solid #b1b1b1;
+  border-radius: 50%;
+  transition: none;
+ 
+}
+
+.size select {
+  width: 60px;
+  padding: 3px 0;
+  border: 0.5px solid #767676;
+  background: transparent;
+  color: #222;
+  cursor: pointer;
+}
+.productCardContainer {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: all 1.5s ease;
+}
+
+.productCard {
+  width: 300px;
+  box-shadow: 0 7px 25px -10px rgba(0, 0, 0, 0.33);
+  overflow: hidden;
+  position: relative;
+}
+
+.productCard:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+.productCard .productCardImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 10% 10% 10% 10%;
+}
+
+.productCard:hover .productCardImg {
+  height: 240px;
+}
+
+.productCard:hover .productCardDetails {
+  padding-bottom: 72px;
+}
+
+.productCard .productCardDetails {
+  padding: 1rem;
+  display: flex;
+ 
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.025), transparent);
+}
+
+ 
+
+.productCard .productCardDetails .producName {
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #222;
+}
+
+.productCard .productCardDetails .productPrice {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #767676;
+}
+ 
+.productCardNames {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productSizeColors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.productCard .productWishAddtocart {
+  position: absolute;
+  bottom: -75px;
+  right: 0;
+  left: 0;
+}
+
+.productCard:hover .productWishAddtocart {
+  bottom: 1.1rem;
+}
+
+.productCard .productWishAddtocart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.productCard .productWishAddtocart .addtocartBtn {
+  border-radius: 0 !important;
+}
+
+.productCard .productWishAddtocart .wishBtn {
+  margin-left: 1.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 1.3rem 1.3rem;
+  background-color: #eee;
+  color: #bbbbbb;
+  box-shadow: none;
+}
+
+.wishBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.wishBtn,
+button.addtocartBtn {
+  background: #767676;
+  padding: 0.6rem 2.2rem;
+  font-weight: 500 !important;
+  font-size: 15px;
+  color: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.133);
+  cursor: pointer;
+}
+
+.addtocartBtn:hover,
+.wishBtn:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+ 
+
+.carouselInner img {
+  height: 480px !important;
+  object-fit: cover;
+  object-position: 0px 95%;
+}
+
+.carouselInner,
+.card {
+   
+  box-shadow: 0 7px 25px -10px rgba(0, 0, 0, 0.33);
+}
+
+.introShortDescContainer img {
+ 
+  box-shadow: 0 7px 25px -10px rgba(0, 0, 0, 0.33);
+}
+
+.imgFit {
+  width: 100%;
+  object-fit: cover;
+  max-height: 240px;
+}
+ 
+@media (max-width: 840px) {
+  .productCardContainer {
+    justify-content: center;
+  }
+
+  .productCard .productCardImg {
+    height: 240px;
+  }
+
+  .productCard .productCardDetails {
+    padding-bottom: 72px;
+  }
+
+  .productCard .productWishAddtocart {
+    bottom: 1.1rem;
+  }
+
+  .carouselInner img {
+    object-position: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .productCard {
+    width: 100%;
+  }
+}
+
+  */
